@@ -1,0 +1,12 @@
+{
+    "name": "ashevchuk/base-exceptions",
+    "description": "List of base exceptions for application",
+    "authors": [
+        {
+            "name": "Andrew Shevchuk",
+            "email": "shevchuk@be-aware.com.ua"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
