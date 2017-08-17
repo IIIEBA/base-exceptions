@@ -13,5 +13,7 @@
             "BaseExceptions": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "ashevchuk/enum": "1.0.0"
+    }
 }

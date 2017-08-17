@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6679a94a7e53cddbb5c0e9b83d73e651",
+    "packages": [
+        {
+            "name": "ashevchuk/enum",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IIIEBA/enum.git",
+                "reference": "62d9837a2c85d1147ae17163b9d3d1736643a36d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IIIEBA/enum/zipball/62d9837a2c85d1147ae17163b9d3d1736643a36d",
+                "reference": "62d9837a2c85d1147ae17163b9d3d1736643a36d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ashevchuk/phpunit-plus": "1.2.3",
+                "phpunit/phpunit": "6.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Enum\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Andrew Shevchuk",
+                    "email": "shevchuk@be-aware.com.ua"
+                }
+            ],
+            "description": "Add enum to php",
+            "time": "2017-08-17T11:33:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -2,14 +2,26 @@
 
 namespace BaseExceptions\Exception\InvalidArgument;
 
+use BaseExceptions\Enum\VariableType;
+
 /**
  * Class NotFloatException
  * @package BaseExceptions\Exception\InvalidArgument
  */
-class NotFloatException extends \InvalidArgumentException
+class NotFloatException extends InvalidArgumentException
 {
-    public function __construct($name)
+    /**
+     * NotFloatException constructor.
+     *
+     * @param string $name
+     * @param mixed|null $variable
+     */
+    public function __construct($name, $variable = null)
     {
-        parent::__construct("Only float allowed for variable '{$name}'");
+        parent::__construct(
+            "Only float allowed for variable '{$name}'",
+            new VariableType(VariableType::T_FLOAT),
+            $variable
+        );
     }
 }
