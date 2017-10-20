@@ -14,6 +14,6 @@
         }
     },
     "require": {
-        "ashevchuk/enum": "1.0.0"
+        "ashevchuk/enum": "^1"
     }
 }

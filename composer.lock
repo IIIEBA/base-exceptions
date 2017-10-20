@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6679a94a7e53cddbb5c0e9b83d73e651",
+    "content-hash": "41f047b95268081a7c2ff5df1f499563",
     "packages": [
         {
             "name": "ashevchuk/enum",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/IIIEBA/enum.git",
-                "reference": "62d9837a2c85d1147ae17163b9d3d1736643a36d"
+                "reference": "481bf5e5dc4e35ca74e620e6a26497c28302ff9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IIIEBA/enum/zipball/62d9837a2c85d1147ae17163b9d3d1736643a36d",
-                "reference": "62d9837a2c85d1147ae17163b9d3d1736643a36d",
+                "url": "https://api.github.com/repos/IIIEBA/enum/zipball/481bf5e5dc4e35ca74e620e6a26497c28302ff9c",
+                "reference": "481bf5e5dc4e35ca74e620e6a26497c28302ff9c",
                 "shasum": ""
             },
             "require-dev": {
@@ -38,7 +38,7 @@
                 }
             ],
             "description": "Add enum to php",
-            "time": "2017-08-17T11:33:33+00:00"
+            "time": "2017-10-18T11:37:40+00:00"
         }
     ],
     "packages-dev": [],
